@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypi_registration_test/__init__.py
+pypi_registration_test/hello.py
+pypi_registration_test.egg-info/PKG-INFO
+pypi_registration_test.egg-info/SOURCES.txt
+pypi_registration_test.egg-info/dependency_links.txt
+pypi_registration_test.egg-info/top_level.txt
