@@ -1,16 +1,17 @@
 import pandas as pd
 
+from .greet import Greet
 
-class Hello(object):
+
+class Hello(Greet):
 
     def __init__(self, number):
-        self.number = number
-
-    def nprint(self):
-        print(self.number)
+        super().__init__(number)
+        self.letter = 'Hello'
 
     def say(self):
-        print(f'Hello! My number is {self.number}.')
+        print(self.letter)
+        super().say()
 
     def series(self):
         return pd.Series([self.number])

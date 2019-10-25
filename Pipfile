@@ -8,8 +8,7 @@ twine = "*"
 
 [packages]
 pandas = "*"
-attrs = "*"
-attr = "*"
+pypi-registration-test = {path = "."}
 
 [requires]
 python_version = "3.7"
