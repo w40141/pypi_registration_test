@@ -1,5 +1,5 @@
 from .bye import Bye
 from .hello import Hello
+from .human import Person
 
-name = "pypi_registration_test"
-__version__ = '0.0.7'
+__version__ = '0.0.9'
